@@ -486,13 +486,14 @@ header #menu{
     #course-details .overwiew .course-img {
         width: 100%;
         height: 100%;
+        margin-top: 6rem;
     }
     #course-details .overwiew .play-btn {
         width: 30px;
         /* position:initial; */
         height: 20px;
-        left: 30em;
-        top: 15em;        
+        left: 28em;
+        top: 25em;        
     }
     .brief{
         width: 100%;
