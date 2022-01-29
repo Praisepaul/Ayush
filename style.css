@@ -129,7 +129,19 @@ header #menu{
     letter-spacing: 1px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
-
+#course-videos {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .play-btns{
+  width: 60px;
+  position: absolute;
+  left: 33%;
+  top: 150rem;
+  transform: translate(-50%,-50%);
+  cursor:pointer; 
+}
 #course-details{
     display: flex;
     justify-content:space-between ;
@@ -550,5 +562,9 @@ header #menu{
         transform: translate(-50%, -50%);
         /* display: none; */
     }
-
+    .videos {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+      }
 }

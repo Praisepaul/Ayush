@@ -45,3 +45,53 @@ var videoPlayer = document.getElementById("videoPlayer");
 $(document).on('click', 'ul li', function(){
     $(this).addClass('active').siblings().removeClass('active'); 
     })
+
+
+function myFunction1() {
+  var x = document.getElementById("course-video1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunction2() {
+    var x = document.getElementById("course-video2");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function myFunction3() {
+    var x = document.getElementById("course-video3");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function myFunction4() {
+    var x = document.getElementById("course-video4");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function myFunction5() {
+    var x = document.getElementById("course-video5");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function myFunction6() {
+    var x = document.getElementById("course-video6");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
