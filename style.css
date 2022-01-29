@@ -19,7 +19,7 @@ html{
 
 /* ---------------------------------------------------------------------------------------------------------- */
 body{
-    height: 200rem;
+    height: 100%;
     /* display: flex; */
     justify-content: space-between;
 }
@@ -181,7 +181,7 @@ header #menu{
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 #course-details .overwiew .slide{
-    width: 800px ;
+    width: 700px ;
     height: 50px;
     background: rgb(238, 229, 229);
     position: relative;
@@ -316,7 +316,7 @@ header #menu{
 #course-details .enroll .enroll-btn .fav a {
     /* left: 0px; */
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 15px;
     padding: 15px 40px;
     font-weight: 700;
     border-radius: 10px;
@@ -336,7 +336,7 @@ header #menu{
 }
 #course-details .enroll .enroll-btn .share a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 15px;
     padding: 15px 43px;
     font-weight: 700;
     border-radius: 10px;
@@ -347,7 +347,7 @@ header #menu{
 #course-details .enroll .enroll-btn .fav-btn:hover,
 #course-details .enroll .enroll-btn .fas:hover,
 #course-details .enroll .enroll-btn .blue:hover{
-    color:brown;
+    color:rgb(219, 243, 7);
     cursor: pointer;
 }
 #course-details .overwiew .slide-2{
@@ -434,15 +434,21 @@ header #menu{
         width: 100%;
         margin: 0;
         padding: 0;
+        height: 100%;
     }
-    
+    .logo{
+        text-align: center;
+        float: none;
+        width: 100%;
+		max-width: none;
+    }
     header #menu{
         display: block;
     }
     header .navbar{
         position: fixed;
         top: -120%;left: 0;
-        width: 100%;
+        width: 70%;
         background: #444;
     }
     header .navbar ul{
@@ -538,10 +544,9 @@ header #menu{
         flex-direction: column;
     }
     #course-details .overwiew .video-player{
-        width: 80%;
+        width: 100%;
         position: absolute;
-        left: 140%;
-        height: 100px;
+        height: 100%;
         transform: translate(-50%, -50%);
         /* display: none; */
     }
